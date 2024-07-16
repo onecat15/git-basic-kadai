@@ -1,0 +1,24 @@
+PS C:\Users\oneca\OneDrive\デスクトップ\Git\git_tutorial> cd "C:\Users\oneca\OneDrive\デ
+スクトップ\Git"
+
+
+    ディレクトリ: C:\Users\oneca\OneDrive\デスクトップ\Git
+
+
+PS C:\Users\oneca\OneDrive\デスクトップ\Git> cd git_challenge
+PS C:\Users\oneca\OneDrive\デスクトップ\Git\git_challenge> git init
+fatal: pathspec 'hello.world.txt' did not match any files
+PS C:\Users\oneca\OneDrive\デスクトップ\Git\git_challenge> git add hello_world.txt      
+PS C:\Users\oneca\OneDrive\デスクトップ\Git\git_challenge> git commit -m "hollo_world.txtを追加"
+[main (root-commit) a73bcdc] hollo_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\oneca\OneDrive\デスクトップ\Git\git_challenge> git add hello_world.txt      
+PS C:\Users\oneca\OneDrive\デスクトップ\Git\git_challenge> git commit -m "日本語訳を追記
+" 
+[main f5ff710] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\oneca\OneDrive\デスクトップ\Git\git_challenge> git log --oneline       
+f5ff710 (HEAD -> main) 日本語訳を追記
+a73bcdc hollo_world.txtを追加
+PS C:\Users\oneca\OneDrive\デスクトップ\Git\git_challenge> 
